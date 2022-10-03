@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aloma portfolio</title>
+    <link rel="stylesheet" href="aloma.css">
+    <script src="https://kit.fontawesome.com/42fa9b8fee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="close()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="open()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm  <span> ADEJUMO IDRIS</span> <br>   from Nigeria</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- aboout Me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="idris-removebg-preview.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi Everyone I am a graduate of Electrical and Electronics Engineering from Federal university - Oye Ekiti, I specialised in Software development, I have build differnt project acrose difrent sectors, such as E-commerce, FinTech , AgriTech using different programming languages <br> Thanks</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education)" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Front-End Apprentice at Bincom</li>
+                            <li><span> 2021-2022</span><br>Web Designer at TaoGlobal</li>
+                            <li><span> 2018-2019 </span><br>InternShip at America Tower</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014- 2020</span><br> Electrical & Electronics Engineering at Fed Uni Oye</li>
+                            <li><span>2021</span><br>Responsive Web design FreeCodeCamp Certification</li>
+                            <li><span>2022</span><br>Front-End Development, FreeCodeCamp Certification</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p> design different type of web design</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> Web Development</h2>
+                    <p> design different type of web design</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-adn"></i>
+                    <h2> App Development</h2>
+                    <p> design different type of web design</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ------------------Portfolio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpg">
+                    <div class="layer">
+                        <h3> Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ratione nostrum, veritatis nulla quibusdam ipsam ab recusandae excepturi fugiat molestiae error quia sapiente autem, nisi voluptatibus totam iure dignissimos tempora.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpg">
+                    <div class="layer">
+                        <h3> Music App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ratione nostrum, veritatis nulla quibusdam ipsam ab recusandae excepturi fugiat molestiae error quia sapiente autem, nisi voluptatibus totam iure dignissimos tempora.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.jpg">
+                    <div class="layer">
+                        <h3> online shopping App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ratione nostrum, veritatis nulla quibusdam ipsam ab recusandae excepturi fugiat molestiae error quia sapiente autem, nisi voluptatibus totam iure dignissimos tempora.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn"> See more</a>
+
+        </div>
+
+    </div>
+
+    <!-- -----------------------------------------Contact Section-------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>idrisadejumo@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>08149481975</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/adejumoisris"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/adejumo-idris-9b2561131/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Resume.pdf"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright idris. </p>
+        </div>
+    </div>
+
+    
+
+    <script src="aloma.js"></script>
+</body>
+</html>
